@@ -14,13 +14,13 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 # ------------------- Config ---------------------
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SPREADSHEET_ID = '1asB1-aXLOqTaNYLckrxkM02GnYF3QETn6edAy-iAGHw'
+SPREADSHEET_ID = ''
 SHEET_NAME = 'Sheet1'
 RANGE_NAME = f'{SHEET_NAME}!A2:L'
 SHEET_ID = 0  # Usually 0 for first sheet
 
 # 🔐 SET YOUR GEMINI API KEY HERE OR IN ENV
-GOOGLE_API_KEY = "AIzaSyAyTROySd2T8pN4P3NeLPJwvGTzSuG7eZk"  # 🔁 Paste your Gemini API Key here
+GOOGLE_API_KEY = ""  # 🔁 Paste your Gemini API Key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # ------------------ Auth Setup ------------------
